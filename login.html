@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/iconee.png" type="image/x-icon">
+    <title>Login - Loja de Tênis</title>
+</head>
+<body>
+     <!-- Código de leitura em Libras -->
+     <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <!-- Cabeçalho -->
+    <header>
+        <img src="img/iconee.png" alt="Logo Tênis">
+        <h1>Loja de Tênis</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="#">Galeria de Produtos</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cadastro">
+        <h2>Login</h2>
+        <form action="#" method="post" class="form-cadastro">
+            <input type="email" class="input-field" placeholder="E-mail" required>
+            <input type="senha" class="input-field" placeholder="Senha" required>
+            <br>
+             <p>Não tem uma conta? <a href="cadastro.html" class="content-link">Cadastre-se aqui</a></p>
+        <br>
+            <button type="submit" class="btn-cadastrar">Entrar</button>
+        </form>
+        <br>
+       
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Redes Sociais</h3>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Loja de Tênis. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
